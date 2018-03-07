@@ -3,9 +3,9 @@ Moya的基本使用方法
 
 详细文章在这里：[Moya的基本使用方法](https://www.jianshu.com/p/b0f0fb4189ba)
 
-Swift中的网络请求库**[Alamofire](https://github.com/Alamofire/Alamofire)**，相当于OC中的**[AFNetworking](https://github.com/AFNetworking/AFNetworking)**，在使用的过程中，我们一般都会对Alamofire做进一步的封装，可是结果大多不太理想。
+Swift中的网络请求库[Alamofire](https://github.com/Alamofire/Alamofire)，相当于OC中的 [AFNetworking](https://github.com/AFNetworking/AFNetworking)，在使用的过程中，我们一般都会对Alamofire做进一步的封装，可是结果大多不太理想。
 
-所以就引出了今天的主角**[Moya](https://github.com/Moya/Moya)**，它是一个网络抽象层，封装的比较充分，并且是直接调用Alamofire，借用一下Moya的图如下。
+所以就引出了今天的主角[Moya](https://github.com/Moya/Moya)，它是一个网络抽象层，封装的比较充分，并且是直接调用Alamofire，借用一下Moya的图如下。
 
 ![Moya](http://upload-images.jianshu.io/upload_images/3873004-9fcf645eab42a5d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
