@@ -19,7 +19,7 @@ Swift中的网络请求库[Alamofire](https://github.com/Alamofire/Alamofire)，
 
 #### 2、定义网络请求接口
 
-实际上是定义一个枚举，枚举值就是每个网络请求API。
+实际上是定义一个枚举，枚举名就是每个网络请求API。
 
 ```objc
 // 定义请求方法
