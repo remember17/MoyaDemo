@@ -13,7 +13,7 @@ Swift中的网络请求库[Alamofire](https://github.com/Alamofire/Alamofire)，
 
 #### 1、创建网络层.swift文件
 
-这里我创建了一个WHService.swift文件
+这里我创建了一个WHService.swift文件，并导入头文件import Moya
 
 ![创建swift.文件](http://upload-images.jianshu.io/upload_images/3873004-7af173ca23d146ef.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
