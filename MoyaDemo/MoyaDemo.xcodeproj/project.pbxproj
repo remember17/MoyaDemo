@@ -13,6 +13,7 @@
 		E836211E204FC1690046F6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E836211D204FC1690046F6DD /* Assets.xcassets */; };
 		E8362121204FC1690046F6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E836211F204FC1690046F6DD /* LaunchScreen.storyboard */; };
 		E8362129204FC2390046F6DD /* WHService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8362128204FC2390046F6DD /* WHService.swift */; };
+		E836213920522E070046F6DD /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836213820522E070046F6DD /* Internet.swift */; };
 		F7E89EACABC85108FACC9D13 /* Pods_MoyaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D424194FAC6EB6B4C433D1 /* Pods_MoyaDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		E8362120204FC1690046F6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8362122204FC1690046F6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8362128204FC2390046F6DD /* WHService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHService.swift; sourceTree = "<group>"; };
+		E836213820522E070046F6DD /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				E8362128204FC2390046F6DD /* WHService.swift */,
+				E836213820522E070046F6DD /* Internet.swift */,
 				E8362118204FC1690046F6DD /* ViewController.swift */,
 				E8362116204FC1690046F6DD /* AppDelegate.swift */,
 				E836211A204FC1690046F6DD /* Main.storyboard */,
@@ -204,12 +207,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-MoyaDemo/Pods-MoyaDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +231,7 @@
 			files = (
 				E8362129204FC2390046F6DD /* WHService.swift in Sources */,
 				E8362119204FC1690046F6DD /* ViewController.swift in Sources */,
+				E836213920522E070046F6DD /* Internet.swift in Sources */,
 				E8362117204FC1690046F6DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

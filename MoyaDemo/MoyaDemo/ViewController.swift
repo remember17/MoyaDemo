@@ -13,20 +13,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // 直接进行网络请求
         WHNetwork.request(target: .demo1, success: { (result) in
             whLog(result)
+            guard let internet = Internet(JSON: (result as! [String : AnyObject])) else { return }
+            whLog(internet.origin)
+            whLog(internet.url)
+            whLog(internet.Connection)
+            whLog(internet.Host)
+            whLog(internet.Agent)
         }) { (error) in
             whLog(error.localizedDescription)
         }
         
-        // 带有参数
         WHNetwork.request(target: .demo2(name: "wuhao"), success: { (result) in
             whLog(result)
         }) { (error) in
             whLog(error.localizedDescription)
         }
-        
+
         WHNetwork.request(target: .demo3(name: "wuhao", score: 100), success: { (result) in
             whLog(result)
         }) { (error) in

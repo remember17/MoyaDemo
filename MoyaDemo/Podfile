@@ -10,5 +10,6 @@ inhibit_all_warnings!
 
 pod 'Alamofire'
 pod 'Moya'
+pod 'ObjectMapper'
 
 end
