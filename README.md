@@ -8,7 +8,7 @@ Swift中的网络请求库 **[Alamofire](https://github.com/Alamofire/Alamofire)
 
 ![Moya](http://upload-images.jianshu.io/upload_images/3873004-9fcf645eab42a5d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-完成网络请求拿到JSON数据之后，通常都需要转模型，所以本文顺带介绍一下 **[ObjectMapper](https://github.com/Hearst-DD/ObjectMapper)**的基本使用方法。
+完成网络请求拿到JSON数据之后，通常都需要转模型，所以本文顺带介绍一下 **[ObjectMapper](https://github.com/Hearst-DD/ObjectMapper)** 的基本使用方法。
 
 ## 一、Moya的使用方法
 
